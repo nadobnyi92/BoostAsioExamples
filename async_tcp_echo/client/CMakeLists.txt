@@ -1,6 +1,7 @@
-project(SyncTcpEchoClient)
+project(ASyncTcpEchoClient)
 
-set(SRC main.cpp)
+set(SRC main.cpp
+        async_client.cpp)
 
 include_directories(${Boost_INCLUDE_DIRS})
 

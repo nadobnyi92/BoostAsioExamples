@@ -7,4 +7,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(Boost REQUIRED system)
 
-add_subdirectory(sync_tcp_echo)
+add_subdirectory(sync_tcp_echo/client)
+add_subdirectory(sync_tcp_echo/server)
+
+add_subdirectory(async_tcp_echo/client)
+add_subdirectory(async_tcp_echo/server)
