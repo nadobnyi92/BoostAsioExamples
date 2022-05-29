@@ -12,3 +12,6 @@ add_subdirectory(sync_tcp_echo/server)
 
 add_subdirectory(async_tcp_echo/client)
 add_subdirectory(async_tcp_echo/server)
+
+add_subdirectory(sync_udp_echo/client)
+add_subdirectory(sync_udp_echo/server)
