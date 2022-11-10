@@ -21,5 +21,8 @@ add_subdirectory(EchoSyncUdp/server)
 add_subdirectory(SimpleSyncTcp/client)
 add_subdirectory(SimpleSyncTcp/server)
 
+add_subdirectory(SimpleAsyncTcp/client)
+add_subdirectory(SimpleAsyncTcp/server)
+
 file(CREATE_LINK ${CMAKE_BINARY_DIR}/compile_commands.json ${CMAKE_SOURCE_DIR}/compile_commands.json SYMBOLIC)
 
